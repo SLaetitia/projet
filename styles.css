@@ -1,10 +1,10 @@
 body{
-background-color: #d9ecd0;
+background-color:#F0EAD6;
 
 }
 header{
 background-image: url('https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-background-color: #d9ecd0;
+background-color:#F0EAD6;
 width: 80%;
 height: 200px;
 margin:auto;
@@ -14,16 +14,19 @@ margin-bottom: center;
 
 nav{
 text-align: center;
-width: 85%;
-height: 50px;
+width: 80%;
+height: 80px;
 margin:auto;	
 margin-top:auto;
 margin-bottom:center;
-background-color: #d9ecd0;
+background-color:#F0EAD6;
+border-bottom: 3px solid black;
+padding-bottom: 25px;
+
 
 }
 h1,h2,h3{
-	color:#454140;
+	color:#000000;
 	text-align: center;
 }
 ul{
@@ -35,26 +38,24 @@ justify-content:center;
 li a{
 display: block;
 width:80px;
-height:40px;
+height:20px;
 text-decoration: none;
 padding:30px ;
 font-family: 'Calistoga', cursive;
 font-size: 15px;
-color:#454140;
+color:#000000;
 
 }
 li a:hover{
-background-color: #77a8a8;
-color:#454140;
+background-color: #9E1030;
 font-size: 15px;
 }
 li a:active{
 	text-align:center;
-	background-color:#d9ecd0;
+	background-color:#F0EAD6;
 	font-size: 15px;
 }
 p{
-	color:#454140;
 	font-size: 20px;
 }
 main {
@@ -65,7 +66,9 @@ width: 80%;
 height:40%;
 margin:auto;	
 margin bottom: 10px;
-background-color: #d9ecd0;
+background-color:#F0EAD6;
+border-bottom: 3px solid black;
+padding-bottom: 25px;
 
 }
 section{
@@ -73,7 +76,7 @@ margin: 0 auto;
 padding: 3%;
 width: auto;
 height: auto;
-background-color:#d9ecd0;
+background-color:#F0EAD6;
 
 }
 section a{
@@ -86,15 +89,11 @@ padding:1%;
 height:auto;
 }
 
-
-
 footer{
 width: 100%;
 height: auto;
-margin:auto;
-margin-top:auto;
-margin-bottom:auto;	
-background-color: #d9ecd0;
+margin:auto;	
+background-color:#F0EAD6;
 }
 
 #menu {
@@ -129,7 +128,7 @@ height:220px;
   background-color: ;
   font-size: 20pt;
   font-weight: bolder;
-  color: black;
+  color: #000000;
 }
 
 .mike {
@@ -139,4 +138,10 @@ height:220px;
 
 ol.circle{
   list-style-type: circle;
+}
+.question {
+color:#C62168;
+}
+.reponse {
+color:#000000;
 }
